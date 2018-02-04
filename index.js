@@ -1,4 +1,4 @@
-var array = ["Milo", "Otis", "Garfield"]
+var arrayRefresh = ["Milo", "Otis", "Garfield"]
 var kittens = array
 
 function destructivelyAppendKitten(name) {
