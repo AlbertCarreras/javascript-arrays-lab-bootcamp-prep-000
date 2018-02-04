@@ -14,9 +14,21 @@ function destructivelyPrependKitten(name) {
 
 var kittens = ["Milo", "Otis", "Garfield"]
 
-function destructivelyPrependKitten(name) {
-  kittens.unshift(name)
+function destructivelyRemoveLastKitten(name) {
+  kittens.pop(name)
   return kittens
 }
 
 var kittens = ["Milo", "Otis", "Garfield"]
+
+function destructivelyRemoveFirstKitten(name) {
+  kittens.shift(name)
+  return kittens
+}
+
+var kittens = ["Milo", "Otis", "Garfield"]
+
+function destructivelyRemoveFirstKitten(name) {
+  kittens.shift(name)
+  return kittens
+}
